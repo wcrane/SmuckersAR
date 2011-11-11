@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00FEB9C4146DB0FF00CF26EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00FEB9C3146DB0FF00CF26EF /* UIKit.framework */; };
+		00FEB9C6146DB0FF00CF26EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00FEB9C5146DB0FF00CF26EF /* Foundation.framework */; };
+		00FEB9C8146DB0FF00CF26EF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00FEB9C7146DB0FF00CF26EF /* CoreGraphics.framework */; };
+		00FEB9CE146DB0FF00CF26EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00FEB9CC146DB0FF00CF26EF /* InfoPlist.strings */; };
+		00FEB9D0146DB0FF00CF26EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FEB9CF146DB0FF00CF26EF /* main.m */; };
+		00FEB9D4146DB0FF00CF26EF /* valAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FEB9D3146DB0FF00CF26EF /* valAppDelegate.m */; };
+		00FEB9D7146DB0FF00CF26EF /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00FEB9D5146DB0FF00CF26EF /* MainStoryboard.storyboard */; };
+		00FEB9DA146DB0FF00CF26EF /* valViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FEB9D9146DB0FF00CF26EF /* valViewController.m */; };
+		00FEB9E2146DB0FF00CF26EF /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00FEB9E1146DB0FF00CF26EF /* SenTestingKit.framework */; };
+		00FEB9E3146DB0FF00CF26EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00FEB9C3146DB0FF00CF26EF /* UIKit.framework */; };
+		00FEB9E4146DB0FF00CF26EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00FEB9C5146DB0FF00CF26EF /* Foundation.framework */; };
+		00FEB9EC146DB0FF00CF26EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00FEB9EA146DB0FF00CF26EF /* InfoPlist.strings */; };
+		00FEB9EF146DB0FF00CF26EF /* SmuckersARTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FEB9EE146DB0FF00CF26EF /* SmuckersARTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00FEB9E5146DB0FF00CF26EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00FEB9B6146DB0FE00CF26EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00FEB9BE146DB0FF00CF26EF;
+			remoteInfo = SmuckersAR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00FEB9BF146DB0FF00CF26EF /* SmuckersAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmuckersAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00FEB9C3146DB0FF00CF26EF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		00FEB9C5146DB0FF00CF26EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		00FEB9C7146DB0FF00CF26EF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		00FEB9CB146DB0FF00CF26EF /* SmuckersAR-Info.plist */ = {isa = PBXFileReference; path = "SmuckersAR-Info.plist"; sourceTree = "<group>"; };
+		00FEB9CD146DB0FF00CF26EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		00FEB9CF146DB0FF00CF26EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		00FEB9D1146DB0FF00CF26EF /* SmuckersAR-Prefix.pch */ = {isa = PBXFileReference; path = "SmuckersAR-Prefix.pch"; sourceTree = "<group>"; };
+		00FEB9D2146DB0FF00CF26EF /* valAppDelegate.h */ = {isa = PBXFileReference; path = valAppDelegate.h; sourceTree = "<group>"; };
+		00FEB9D3146DB0FF00CF26EF /* valAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = valAppDelegate.m; sourceTree = "<group>"; };
+		00FEB9D6146DB0FF00CF26EF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		00FEB9D8146DB0FF00CF26EF /* valViewController.h */ = {isa = PBXFileReference; path = valViewController.h; sourceTree = "<group>"; };
+		00FEB9D9146DB0FF00CF26EF /* valViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = valViewController.m; sourceTree = "<group>"; };
+		00FEB9E0146DB0FF00CF26EF /* SmuckersARTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmuckersARTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00FEB9E1146DB0FF00CF26EF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		00FEB9E9146DB0FF00CF26EF /* SmuckersARTests-Info.plist */ = {isa = PBXFileReference; path = "SmuckersARTests-Info.plist"; sourceTree = "<group>"; };
+		00FEB9EB146DB0FF00CF26EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		00FEB9ED146DB0FF00CF26EF /* SmuckersARTests.h */ = {isa = PBXFileReference; path = SmuckersARTests.h; sourceTree = "<group>"; };
+		00FEB9EE146DB0FF00CF26EF /* SmuckersARTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmuckersARTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00FEB9BC146DB0FF00CF26EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00FEB9C4146DB0FF00CF26EF /* UIKit.framework in Frameworks */,
+				00FEB9C6146DB0FF00CF26EF /* Foundation.framework in Frameworks */,
+				00FEB9C8146DB0FF00CF26EF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00FEB9DC146DB0FF00CF26EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00FEB9E2146DB0FF00CF26EF /* SenTestingKit.framework in Frameworks */,
+				00FEB9E3146DB0FF00CF26EF /* UIKit.framework in Frameworks */,
+				00FEB9E4146DB0FF00CF26EF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00FEB9B4146DB0FE00CF26EF = {
+			isa = PBXGroup;
+			children = (
+				00FEB9C9146DB0FF00CF26EF /* SmuckersAR */,
+				00FEB9E7146DB0FF00CF26EF /* SmuckersARTests */,
+				00FEB9C2146DB0FF00CF26EF /* Frameworks */,
+				00FEB9C0146DB0FF00CF26EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00FEB9C0146DB0FF00CF26EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00FEB9BF146DB0FF00CF26EF /* SmuckersAR.app */,
+				00FEB9E0146DB0FF00CF26EF /* SmuckersARTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00FEB9C2146DB0FF00CF26EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00FEB9C3146DB0FF00CF26EF /* UIKit.framework */,
+				00FEB9C5146DB0FF00CF26EF /* Foundation.framework */,
+				00FEB9C7146DB0FF00CF26EF /* CoreGraphics.framework */,
+				00FEB9E1146DB0FF00CF26EF /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		00FEB9C9146DB0FF00CF26EF /* SmuckersAR */ = {
+			isa = PBXGroup;
+			children = (
+				00FEB9D2146DB0FF00CF26EF /* valAppDelegate.h */,
+				00FEB9D3146DB0FF00CF26EF /* valAppDelegate.m */,
+				00FEB9D5146DB0FF00CF26EF /* MainStoryboard.storyboard */,
+				00FEB9D8146DB0FF00CF26EF /* valViewController.h */,
+				00FEB9D9146DB0FF00CF26EF /* valViewController.m */,
+				00FEB9CA146DB0FF00CF26EF /* Supporting Files */,
+			);
+			path = SmuckersAR;
+			sourceTree = "<group>";
+		};
+		00FEB9CA146DB0FF00CF26EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00FEB9CB146DB0FF00CF26EF /* SmuckersAR-Info.plist */,
+				00FEB9CC146DB0FF00CF26EF /* InfoPlist.strings */,
+				00FEB9CF146DB0FF00CF26EF /* main.m */,
+				00FEB9D1146DB0FF00CF26EF /* SmuckersAR-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00FEB9E7146DB0FF00CF26EF /* SmuckersARTests */ = {
+			isa = PBXGroup;
+			children = (
+				00FEB9ED146DB0FF00CF26EF /* SmuckersARTests.h */,
+				00FEB9EE146DB0FF00CF26EF /* SmuckersARTests.m */,
+				00FEB9E8146DB0FF00CF26EF /* Supporting Files */,
+			);
+			path = SmuckersARTests;
+			sourceTree = "<group>";
+		};
+		00FEB9E8146DB0FF00CF26EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00FEB9E9146DB0FF00CF26EF /* SmuckersARTests-Info.plist */,
+				00FEB9EA146DB0FF00CF26EF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00FEB9BE146DB0FF00CF26EF /* SmuckersAR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00FEB9F2146DB0FF00CF26EF /* Build configuration list for PBXNativeTarget "SmuckersAR" */;
+			buildPhases = (
+				00FEB9BB146DB0FF00CF26EF /* Sources */,
+				00FEB9BC146DB0FF00CF26EF /* Frameworks */,
+				00FEB9BD146DB0FF00CF26EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmuckersAR;
+			productName = SmuckersAR;
+			productReference = 00FEB9BF146DB0FF00CF26EF /* SmuckersAR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00FEB9DF146DB0FF00CF26EF /* SmuckersARTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00FEB9F5146DB0FF00CF26EF /* Build configuration list for PBXNativeTarget "SmuckersARTests" */;
+			buildPhases = (
+				00FEB9DB146DB0FF00CF26EF /* Sources */,
+				00FEB9DC146DB0FF00CF26EF /* Frameworks */,
+				00FEB9DD146DB0FF00CF26EF /* Resources */,
+				00FEB9DE146DB0FF00CF26EF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00FEB9E6146DB0FF00CF26EF /* PBXTargetDependency */,
+			);
+			name = SmuckersARTests;
+			productName = SmuckersARTests;
+			productReference = 00FEB9E0146DB0FF00CF26EF /* SmuckersARTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00FEB9B6146DB0FE00CF26EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Valassis;
+			};
+			buildConfigurationList = 00FEB9B9146DB0FE00CF26EF /* Build configuration list for PBXProject "SmuckersAR" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 00FEB9B4146DB0FE00CF26EF;
+			productRefGroup = 00FEB9C0146DB0FF00CF26EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00FEB9BE146DB0FF00CF26EF /* SmuckersAR */,
+				00FEB9DF146DB0FF00CF26EF /* SmuckersARTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00FEB9BD146DB0FF00CF26EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00FEB9CE146DB0FF00CF26EF /* InfoPlist.strings in Resources */,
+				00FEB9D7146DB0FF00CF26EF /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00FEB9DD146DB0FF00CF26EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00FEB9EC146DB0FF00CF26EF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00FEB9DE146DB0FF00CF26EF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00FEB9BB146DB0FF00CF26EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00FEB9D0146DB0FF00CF26EF /* main.m in Sources */,
+				00FEB9D4146DB0FF00CF26EF /* valAppDelegate.m in Sources */,
+				00FEB9DA146DB0FF00CF26EF /* valViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00FEB9DB146DB0FF00CF26EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00FEB9EF146DB0FF00CF26EF /* SmuckersARTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00FEB9E6146DB0FF00CF26EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00FEB9BE146DB0FF00CF26EF /* SmuckersAR */;
+			targetProxy = 00FEB9E5146DB0FF00CF26EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		00FEB9CC146DB0FF00CF26EF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00FEB9CD146DB0FF00CF26EF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		00FEB9D5146DB0FF00CF26EF /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00FEB9D6146DB0FF00CF26EF /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		00FEB9EA146DB0FF00CF26EF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00FEB9EB146DB0FF00CF26EF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00FEB9F0146DB0FF00CF26EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		00FEB9F1146DB0FF00CF26EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00FEB9F3146DB0FF00CF26EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmuckersAR/SmuckersAR-Prefix.pch";
+				INFOPLIST_FILE = "SmuckersAR/SmuckersAR-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		00FEB9F4146DB0FF00CF26EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmuckersAR/SmuckersAR-Prefix.pch";
+				INFOPLIST_FILE = "SmuckersAR/SmuckersAR-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		00FEB9F6146DB0FF00CF26EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SmuckersAR.app/SmuckersAR";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmuckersAR/SmuckersAR-Prefix.pch";
+				INFOPLIST_FILE = "SmuckersARTests/SmuckersARTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		00FEB9F7146DB0FF00CF26EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SmuckersAR.app/SmuckersAR";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmuckersAR/SmuckersAR-Prefix.pch";
+				INFOPLIST_FILE = "SmuckersARTests/SmuckersARTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00FEB9B9146DB0FE00CF26EF /* Build configuration list for PBXProject "SmuckersAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00FEB9F0146DB0FF00CF26EF /* Debug */,
+				00FEB9F1146DB0FF00CF26EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00FEB9F2146DB0FF00CF26EF /* Build configuration list for PBXNativeTarget "SmuckersAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00FEB9F3146DB0FF00CF26EF /* Debug */,
+				00FEB9F4146DB0FF00CF26EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		00FEB9F5146DB0FF00CF26EF /* Build configuration list for PBXNativeTarget "SmuckersARTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00FEB9F6146DB0FF00CF26EF /* Debug */,
+				00FEB9F7146DB0FF00CF26EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00FEB9B6146DB0FE00CF26EF /* Project object */;
+}
