@@ -8,7 +8,11 @@
 
 #import "valViewController.h"
 
+#import "AKViewController.h"
+
 @implementation valViewController
+
+@synthesize aurasmaController;
 
 - (void)didReceiveMemoryWarning
 {
@@ -17,6 +21,12 @@
 }
 
 #pragma mark - View lifecycle
+
+- (void) dealloc {
+    
+    aurasmaController.delegate = nil;
+    //[aurasmaController release];
+}
 
 - (void)viewDidLoad
 {
@@ -54,7 +64,53 @@
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     // Return YES for supported orientations
-    return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+    return UIInterfaceOrientationIsLandscape(interfaceOrientation);
+}
+
+- (IBAction)startButtonPushed:(id)sender {
+    
+    // create the AR VC and present the view modally
+    if( !self.aurasmaController )
+    {
+        self.aurasmaController = [AKViewController aurasmaViewControllerWithDelegate:self];
+        
+        if (self.aurasmaController)
+        {
+            //self.aurasmaController.showsCloseButton = showCloseButton;
+            self.aurasmaController.delayGuide = YES;
+            [self presentModalViewController:self.aurasmaController animated:YES];
+        }
+        else
+            [[[UIAlertView alloc] initWithTitle:@"Alert"
+                                         message:@"AurasmaKit not supported on this architecture"
+                                        delegate:nil
+                               cancelButtonTitle:@"OK"
+                               otherButtonTitles:nil] show];
+    }
+    
+}
+
+#pragma mark -
+#pragma mark AKViewControllerDelegate
+
+- (void)aurasmaViewControllerDidClose:(AKViewController*)aurasmaViewController
+{
+    self.aurasmaController.delegate = nil;
+    self.aurasmaController = nil;
+    
+    [self dismissModalViewControllerAnimated:YES];
+}
+
+- (void) aurasmaViewController:(AKViewController*)aurasmaViewController didLoadOverlayView:(UIView*)overlayView
+{
+    //    UIButton *button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    //    
+    //    button.frame  = CGRectMake(0., 0., 150.0, overlayView.bounds.size.height);
+    //    [button setTitle: @"Press me!" forState:UIControlStateNormal];
+    //    
+    //    [button addTarget:self action:@selector(buttonPressed:) forControlEvents:UIControlEventTouchUpInside];
+    //    
+    //    [overlayView addSubview:button];
 }
 
 @end

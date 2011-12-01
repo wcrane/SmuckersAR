@@ -7,7 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AKViewController.h"
 
-@interface valViewController : UIViewController
+
+@interface valViewController : UIViewController <AKViewControllerDelegate> {
+
+AKViewController *aurasmaController;
+
+}
+
+@property (nonatomic, retain) AKViewController *aurasmaController;
+
+- (IBAction)startButtonPushed:(id)sender;
 
 @end

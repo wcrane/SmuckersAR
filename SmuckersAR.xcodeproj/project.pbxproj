@@ -20,6 +20,28 @@
 		00FEB9E4146DB0FF00CF26EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00FEB9C5146DB0FF00CF26EF /* Foundation.framework */; };
 		00FEB9EC146DB0FF00CF26EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00FEB9EA146DB0FF00CF26EF /* InfoPlist.strings */; };
 		00FEB9EF146DB0FF00CF26EF /* SmuckersARTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FEB9EE146DB0FF00CF26EF /* SmuckersARTests.m */; };
+		00FEB9F9146DB18C00CF26EF /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00FEB9F8146DB18C00CF26EF /* MobileCoreServices.framework */; };
+		00FEB9FC146DB1A100CF26EF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00FEB9FA146DB1A100CF26EF /* MapKit.framework */; };
+		00FEB9FD146DB1A100CF26EF /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00FEB9FB146DB1A100CF26EF /* MessageUI.framework */; };
+		00FEBA01146DB1AE00CF26EF /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00FEB9FE146DB1AD00CF26EF /* CoreMedia.framework */; };
+		00FEBA02146DB1AE00CF26EF /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00FEB9FF146DB1AD00CF26EF /* CoreMotion.framework */; };
+		00FEBA03146DB1AE00CF26EF /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00FEBA00146DB1AD00CF26EF /* CoreVideo.framework */; };
+		00FEBA0A146DB1D900CF26EF /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00FEBA04146DB1D900CF26EF /* AudioToolbox.framework */; };
+		00FEBA0B146DB1D900CF26EF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00FEBA05146DB1D900CF26EF /* AVFoundation.framework */; };
+		00FEBA0C146DB1D900CF26EF /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00FEBA06146DB1D900CF26EF /* CFNetwork.framework */; };
+		00FEBA0D146DB1D900CF26EF /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00FEBA07146DB1D900CF26EF /* CoreAudio.framework */; };
+		00FEBA0E146DB1D900CF26EF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00FEBA08146DB1D900CF26EF /* CoreLocation.framework */; };
+		00FEBA0F146DB1D900CF26EF /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00FEBA09146DB1D900CF26EF /* OpenGLES.framework */; };
+		00FEBA14146DB1F100CF26EF /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00FEBA10146DB1F100CF26EF /* OpenAL.framework */; };
+		00FEBA15146DB1F100CF26EF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00FEBA11146DB1F100CF26EF /* QuartzCore.framework */; };
+		00FEBA16146DB1F100CF26EF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00FEBA12146DB1F100CF26EF /* Security.framework */; };
+		00FEBA17146DB1F100CF26EF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00FEBA13146DB1F100CF26EF /* SystemConfiguration.framework */; };
+		00FEBA1C146DB39700CF26EF /* libbz2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 00FEBA18146DB39700CF26EF /* libbz2.dylib */; };
+		00FEBA1D146DB39700CF26EF /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 00FEBA19146DB39700CF26EF /* libsqlite3.dylib */; };
+		00FEBA1E146DB39700CF26EF /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 00FEBA1A146DB39700CF26EF /* libxml2.dylib */; };
+		00FEBA1F146DB39700CF26EF /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 00FEBA1B146DB39700CF26EF /* libz.dylib */; };
+		00FEBA34146DC7BC00CF26EF /* cppstub.mm in Sources */ = {isa = PBXBuildFile; fileRef = 00FEBA2D146DC7BC00CF26EF /* cppstub.mm */; };
+		00FEBA35146DC7BC00CF26EF /* libAurasmaKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00FEBA33146DC7BC00CF26EF /* libAurasmaKit.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,21 +59,48 @@
 		00FEB9C3146DB0FF00CF26EF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		00FEB9C5146DB0FF00CF26EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		00FEB9C7146DB0FF00CF26EF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		00FEB9CB146DB0FF00CF26EF /* SmuckersAR-Info.plist */ = {isa = PBXFileReference; path = "SmuckersAR-Info.plist"; sourceTree = "<group>"; };
+		00FEB9CB146DB0FF00CF26EF /* SmuckersAR-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SmuckersAR-Info.plist"; sourceTree = "<group>"; };
 		00FEB9CD146DB0FF00CF26EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		00FEB9CF146DB0FF00CF26EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		00FEB9D1146DB0FF00CF26EF /* SmuckersAR-Prefix.pch */ = {isa = PBXFileReference; path = "SmuckersAR-Prefix.pch"; sourceTree = "<group>"; };
-		00FEB9D2146DB0FF00CF26EF /* valAppDelegate.h */ = {isa = PBXFileReference; path = valAppDelegate.h; sourceTree = "<group>"; };
+		00FEB9D1146DB0FF00CF26EF /* SmuckersAR-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmuckersAR-Prefix.pch"; sourceTree = "<group>"; };
+		00FEB9D2146DB0FF00CF26EF /* valAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = valAppDelegate.h; sourceTree = "<group>"; };
 		00FEB9D3146DB0FF00CF26EF /* valAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = valAppDelegate.m; sourceTree = "<group>"; };
 		00FEB9D6146DB0FF00CF26EF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		00FEB9D8146DB0FF00CF26EF /* valViewController.h */ = {isa = PBXFileReference; path = valViewController.h; sourceTree = "<group>"; };
+		00FEB9D8146DB0FF00CF26EF /* valViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = valViewController.h; sourceTree = "<group>"; };
 		00FEB9D9146DB0FF00CF26EF /* valViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = valViewController.m; sourceTree = "<group>"; };
 		00FEB9E0146DB0FF00CF26EF /* SmuckersARTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmuckersARTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00FEB9E1146DB0FF00CF26EF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		00FEB9E9146DB0FF00CF26EF /* SmuckersARTests-Info.plist */ = {isa = PBXFileReference; path = "SmuckersARTests-Info.plist"; sourceTree = "<group>"; };
+		00FEB9E9146DB0FF00CF26EF /* SmuckersARTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SmuckersARTests-Info.plist"; sourceTree = "<group>"; };
 		00FEB9EB146DB0FF00CF26EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		00FEB9ED146DB0FF00CF26EF /* SmuckersARTests.h */ = {isa = PBXFileReference; path = SmuckersARTests.h; sourceTree = "<group>"; };
+		00FEB9ED146DB0FF00CF26EF /* SmuckersARTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmuckersARTests.h; sourceTree = "<group>"; };
 		00FEB9EE146DB0FF00CF26EF /* SmuckersARTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmuckersARTests.m; sourceTree = "<group>"; };
+		00FEB9F8146DB18C00CF26EF /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		00FEB9FA146DB1A100CF26EF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		00FEB9FB146DB1A100CF26EF /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		00FEB9FE146DB1AD00CF26EF /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		00FEB9FF146DB1AD00CF26EF /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		00FEBA00146DB1AD00CF26EF /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		00FEBA04146DB1D900CF26EF /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		00FEBA05146DB1D900CF26EF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		00FEBA06146DB1D900CF26EF /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		00FEBA07146DB1D900CF26EF /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		00FEBA08146DB1D900CF26EF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		00FEBA09146DB1D900CF26EF /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		00FEBA10146DB1F100CF26EF /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		00FEBA11146DB1F100CF26EF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		00FEBA12146DB1F100CF26EF /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		00FEBA13146DB1F100CF26EF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		00FEBA18146DB39700CF26EF /* libbz2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libbz2.dylib; path = usr/lib/libbz2.dylib; sourceTree = SDKROOT; };
+		00FEBA19146DB39700CF26EF /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		00FEBA1A146DB39700CF26EF /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		00FEBA1B146DB39700CF26EF /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		00FEBA2C146DC7BC00CF26EF /* cppstub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cppstub.h; sourceTree = "<group>"; };
+		00FEBA2D146DC7BC00CF26EF /* cppstub.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = cppstub.mm; sourceTree = "<group>"; };
+		00FEBA2F146DC7BC00CF26EF /* AK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AK.h; sourceTree = "<group>"; };
+		00FEBA30146DC7BC00CF26EF /* AKConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKConfig.h; sourceTree = "<group>"; };
+		00FEBA31146DC7BC00CF26EF /* AKVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKVersion.h; sourceTree = "<group>"; };
+		00FEBA32146DC7BC00CF26EF /* AKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKViewController.h; sourceTree = "<group>"; };
+		00FEBA33146DC7BC00CF26EF /* libAurasmaKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAurasmaKit.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +108,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00FEBA1C146DB39700CF26EF /* libbz2.dylib in Frameworks */,
+				00FEBA1D146DB39700CF26EF /* libsqlite3.dylib in Frameworks */,
+				00FEBA1E146DB39700CF26EF /* libxml2.dylib in Frameworks */,
+				00FEBA1F146DB39700CF26EF /* libz.dylib in Frameworks */,
+				00FEBA14146DB1F100CF26EF /* OpenAL.framework in Frameworks */,
+				00FEBA15146DB1F100CF26EF /* QuartzCore.framework in Frameworks */,
+				00FEBA16146DB1F100CF26EF /* Security.framework in Frameworks */,
+				00FEBA17146DB1F100CF26EF /* SystemConfiguration.framework in Frameworks */,
+				00FEBA0A146DB1D900CF26EF /* AudioToolbox.framework in Frameworks */,
+				00FEBA0B146DB1D900CF26EF /* AVFoundation.framework in Frameworks */,
+				00FEBA0C146DB1D900CF26EF /* CFNetwork.framework in Frameworks */,
+				00FEBA0D146DB1D900CF26EF /* CoreAudio.framework in Frameworks */,
+				00FEBA0E146DB1D900CF26EF /* CoreLocation.framework in Frameworks */,
+				00FEBA0F146DB1D900CF26EF /* OpenGLES.framework in Frameworks */,
+				00FEBA01146DB1AE00CF26EF /* CoreMedia.framework in Frameworks */,
+				00FEBA02146DB1AE00CF26EF /* CoreMotion.framework in Frameworks */,
+				00FEBA03146DB1AE00CF26EF /* CoreVideo.framework in Frameworks */,
+				00FEB9FC146DB1A100CF26EF /* MapKit.framework in Frameworks */,
+				00FEB9FD146DB1A100CF26EF /* MessageUI.framework in Frameworks */,
+				00FEB9F9146DB18C00CF26EF /* MobileCoreServices.framework in Frameworks */,
 				00FEB9C4146DB0FF00CF26EF /* UIKit.framework in Frameworks */,
 				00FEB9C6146DB0FF00CF26EF /* Foundation.framework in Frameworks */,
 				00FEB9C8146DB0FF00CF26EF /* CoreGraphics.framework in Frameworks */,
+				00FEBA35146DC7BC00CF26EF /* libAurasmaKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +170,26 @@
 		00FEB9C2146DB0FF00CF26EF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				00FEBA18146DB39700CF26EF /* libbz2.dylib */,
+				00FEBA19146DB39700CF26EF /* libsqlite3.dylib */,
+				00FEBA1A146DB39700CF26EF /* libxml2.dylib */,
+				00FEBA1B146DB39700CF26EF /* libz.dylib */,
+				00FEBA10146DB1F100CF26EF /* OpenAL.framework */,
+				00FEBA11146DB1F100CF26EF /* QuartzCore.framework */,
+				00FEBA12146DB1F100CF26EF /* Security.framework */,
+				00FEBA13146DB1F100CF26EF /* SystemConfiguration.framework */,
+				00FEBA04146DB1D900CF26EF /* AudioToolbox.framework */,
+				00FEBA05146DB1D900CF26EF /* AVFoundation.framework */,
+				00FEBA06146DB1D900CF26EF /* CFNetwork.framework */,
+				00FEBA07146DB1D900CF26EF /* CoreAudio.framework */,
+				00FEBA08146DB1D900CF26EF /* CoreLocation.framework */,
+				00FEBA09146DB1D900CF26EF /* OpenGLES.framework */,
+				00FEB9FE146DB1AD00CF26EF /* CoreMedia.framework */,
+				00FEB9FF146DB1AD00CF26EF /* CoreMotion.framework */,
+				00FEBA00146DB1AD00CF26EF /* CoreVideo.framework */,
+				00FEB9FA146DB1A100CF26EF /* MapKit.framework */,
+				00FEB9FB146DB1A100CF26EF /* MessageUI.framework */,
+				00FEB9F8146DB18C00CF26EF /* MobileCoreServices.framework */,
 				00FEB9C3146DB0FF00CF26EF /* UIKit.framework */,
 				00FEB9C5146DB0FF00CF26EF /* Foundation.framework */,
 				00FEB9C7146DB0FF00CF26EF /* CoreGraphics.framework */,
@@ -111,6 +201,7 @@
 		00FEB9C9146DB0FF00CF26EF /* SmuckersAR */ = {
 			isa = PBXGroup;
 			children = (
+				00FEBA2B146DC7BC00CF26EF /* AurasmaKit */,
 				00FEB9D2146DB0FF00CF26EF /* valAppDelegate.h */,
 				00FEB9D3146DB0FF00CF26EF /* valAppDelegate.m */,
 				00FEB9D5146DB0FF00CF26EF /* MainStoryboard.storyboard */,
@@ -149,6 +240,28 @@
 				00FEB9EA146DB0FF00CF26EF /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00FEBA2B146DC7BC00CF26EF /* AurasmaKit */ = {
+			isa = PBXGroup;
+			children = (
+				00FEBA2C146DC7BC00CF26EF /* cppstub.h */,
+				00FEBA2D146DC7BC00CF26EF /* cppstub.mm */,
+				00FEBA2E146DC7BC00CF26EF /* include */,
+				00FEBA33146DC7BC00CF26EF /* libAurasmaKit.a */,
+			);
+			path = AurasmaKit;
+			sourceTree = "<group>";
+		};
+		00FEBA2E146DC7BC00CF26EF /* include */ = {
+			isa = PBXGroup;
+			children = (
+				00FEBA2F146DC7BC00CF26EF /* AK.h */,
+				00FEBA30146DC7BC00CF26EF /* AKConfig.h */,
+				00FEBA31146DC7BC00CF26EF /* AKVersion.h */,
+				00FEBA32146DC7BC00CF26EF /* AKViewController.h */,
+			);
+			path = include;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +374,7 @@
 				00FEB9D0146DB0FF00CF26EF /* main.m in Sources */,
 				00FEB9D4146DB0FF00CF26EF /* valAppDelegate.m in Sources */,
 				00FEB9DA146DB0FF00CF26EF /* valViewController.m in Sources */,
+				00FEBA34146DC7BC00CF26EF /* cppstub.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +430,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -331,6 +446,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -361,6 +477,16 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SmuckersAR/SmuckersAR-Prefix.pch";
 				INFOPLIST_FILE = "SmuckersAR/SmuckersAR-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Downloads/AurasmaKit-1.4.1/AurasmaKit\"",
+					"\"$(SRCROOT)/SmuckersAR/AurasmaKit\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -372,6 +498,16 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SmuckersAR/SmuckersAR-Prefix.pch";
 				INFOPLIST_FILE = "SmuckersAR/SmuckersAR-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Downloads/AurasmaKit-1.4.1/AurasmaKit\"",
+					"\"$(SRCROOT)/SmuckersAR/AurasmaKit\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
